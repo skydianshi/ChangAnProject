@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_grey_300"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayoutFrmRecvEx"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="5dp"
+        android:background="@mipmap/list_bg"
+        android:clickable="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="接收帧"
+            android:textColor="@color/button_text"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutReadClear"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dp"
+            android:gravity="right" >
+
+            <ImageView
+                android:layout_width="@dimen/ex_width"
+                android:layout_height="@dimen/ex_height"
+                android:layout_gravity="center_vertical"
+                android:background="@mipmap/icon_clear" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutRecvEx"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:gravity="right" >
+
+            <ImageView
+                android:id="@+id/receivePlay"
+                android:layout_width="@dimen/ex_width"
+                android:layout_height="@dimen/ex_height"
+                android:layout_gravity="center_vertical"
+                android:background="@mipmap/icon_play" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/recvlistlayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_weight="2"
+        android:background="@color/list_line" >
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/white"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <include layout="@layout/frm_list_header" />
+
+                <View style="@style/horizontal_line_gainsboro" >
+                </View>
+
+                <ListView
+                    android:id="@+id/listViewRecv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@color/cut_line"
+                    android:dividerHeight="1dp"
+                    android:stackFromBottom="true" >
+                </ListView>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayoutFrmSendEx"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_head_height"
+        android:layout_marginLeft="@dimen/list_left_right_margin"
+        android:layout_marginRight="@dimen/list_left_right_margin"
+        android:layout_marginTop="@dimen/list_top_margin"
+        android:background="@mipmap/list_bg"
+        android:clickable="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="发送帧"
+            android:textColor="@color/button_text"
+            android:textSize="@dimen/button_text_font_size" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutSendClear"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dp"
+            android:gravity="right" >
+
+        <ImageView
+            android:layout_width="@dimen/ex_width"
+            android:layout_height="@dimen/ex_height"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/icon_clear" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutSendMenu"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:gravity="right" >
+
+            <ImageView
+                android:layout_width="@dimen/ex_width"
+                android:layout_height="@dimen/ex_height"
+                android:layout_gravity="center_vertical"
+                android:background="@mipmap/icon_sendmenu" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/sendlistlayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginLeft="@dimen/list_left_right_margin"
+        android:layout_marginRight="@dimen/list_left_right_margin"
+        android:layout_weight="1"
+        android:background="@color/list_line" >
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/white"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <include layout="@layout/frm_list_header_ex" />
+
+                <View style="@style/horizontal_line_gainsboro" >
+                </View>
+
+                <ListView
+                    android:id="@+id/listViewSend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:divider="@color/cut_line"
+                    android:dividerHeight="1dp"
+                    android:stackFromBottom="true" >
+                </ListView>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayoutFrmErrEx"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_head_height"
+        android:layout_marginLeft="@dimen/list_left_right_margin"
+        android:layout_marginRight="@dimen/list_left_right_margin"
+        android:layout_marginTop="@dimen/list_top_margin"
+        android:background="@mipmap/list_bg"
+        android:clickable="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="错误信息"
+            android:textColor="@color/button_text"
+            android:textSize="@dimen/button_text_font_size" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutErrorClear"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:gravity="right" >
+
+            <ImageView
+                android:layout_width="@dimen/ex_width"
+                android:layout_height="@dimen/ex_height"
+                android:layout_gravity="center_vertical"
+                android:background="@mipmap/icon_clear" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/errlistlayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginBottom="@dimen/list_bottom_margin"
+        android:layout_marginLeft="@dimen/list_left_right_margin"
+        android:layout_marginRight="@dimen/list_left_right_margin"
+        android:layout_weight="1"
+        android:background="@color/list_line" >
+
+        <HorizontalScrollView
+            
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/white"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <include layout="@layout/err_list_header" />
+
+                <View style="@style/horizontal_line_gainsboro" >
+                </View>
+
+                <ListView
+                    android:id="@+id/listViewErr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@color/cut_line"
+                    android:dividerHeight="1dp"
+                    android:stackFromBottom="true" >
+                </ListView>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</LinearLayout>

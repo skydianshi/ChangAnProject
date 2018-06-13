@@ -1,0 +1,475 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_figure"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fore_white"
+    tools:context="com.changan.changanproject.fragment.FigureFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_corner"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_didTitle1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"
+                    android:text="电池总电压"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:id="@+id/tv_didFigure1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:text="NO DATA"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_corner"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_didTitle2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"
+                    android:text="电池总电压"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:id="@+id/tv_didFigure2"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:text="NO DATA"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_corner"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_didTitle3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"
+                    android:text="电池总电压"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:id="@+id/tv_didFigure3"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:text="NO DATA"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_corner"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_didTitle4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"
+                    android:text="电池总电压"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:id="@+id/tv_didFigure4"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:text="NO DATA"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_corner"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_didTitle5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"
+                    android:text="电池总电压"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:id="@+id/tv_didFigure5"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:text="NO DATA"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_corner"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_didTitle6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"
+                    android:text="电池总电压"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:id="@+id/tv_didFigure6"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:text="NO DATA"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_corner"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_didTitle7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"
+                    android:text="电池总电压"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:id="@+id/tv_didFigure7"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:text="NO DATA"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_corner"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_didTitle8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"
+                    android:text="电池总电压"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:id="@+id/tv_didFigure8"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:text="NO DATA"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_corner"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_didTitle9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"
+                    android:text="电池总电压"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:id="@+id/tv_didFigure9"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:text="NO DATA"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_corner"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_didTitle10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"
+                    android:text="电池总电压"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:id="@+id/tv_didFigure10"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:text="NO DATA"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</FrameLayout>

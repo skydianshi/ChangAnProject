@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/a_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="20dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/itemIndex"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="序号"
+        android:textColor="@color/button_text"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/cut_line" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/itemID"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="ID(H)"
+        android:textColor="@color/button_text"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/cut_line" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/itemData"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical|left"
+        android:text="数据（H）"
+        android:textColor="@color/button_text"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/cut_line" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/itemType"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="帧类型"
+        android:textColor="@color/button_text"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/cut_line" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/itemTime"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="时间"
+        android:textColor="@color/button_text"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/cut_line" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/itemCount"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="计数"
+        android:textColor="@color/button_text"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/cut_line" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/itemInterval"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="帧间隔"
+        android:textColor="@color/button_text"
+        android:textSize="12sp" />
+
+</LinearLayout>

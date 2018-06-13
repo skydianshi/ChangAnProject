@@ -1,0 +1,449 @@
+<resources>
+    <string name="app_name">长安项目</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_header">Drawer Header</string>
+    <string name="login_success">login success</string>
+    <string name="login">登录</string>
+    <string name="Username">用户名</string>
+    <string name="Password">密码</string>
+    <string name="forgot_your_password">忘记密码？</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="next">NEXT</string>
+    <string name="register">REGISTER</string>
+    <string name="wait">获取中</string>
+
+    <string name="strExport">导出</string>
+    <string name="strClear">清空</string>
+    <string name="strSet">设置</string>
+
+    <!--   统设置界面需要要到的字符串  -->
+    <string name="dev_name">请设置名称</string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="updated_at">上次更新于%s前</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="time_error">时间有问题</string>
+    <string name="not_updated_yet">暂未更新</string>
+    <string name="updated_just_now">刚刚刷新</string>
+    <string name="strBaseInfo">基本信息</string>
+    <string name="strDevModel">设备型号</string>
+    <string name="strHWVertion">设备固件版本</string>
+    <string name="strClearAll">将清空所有列表的内容</string>
+    <string name="strFrmRecv">接收帧</string>
+    <string name="strFrmExtend">扩展帧</string>
+    <string name="strFrmSend">发送帧</string>
+    <string name="strErrNotice">错误信息</string>
+    <string name="strErrNoticeAddr">错误通知地址</string>
+    <string name="strListExport">导出列表</string>
+    <string name="strListType">列表类型:</string>
+    <string name="strListRecv">接收列表</string>
+    <string name="strListSend">发送列表</string>
+    <string name="strListErr">错误信息列表</string>
+    <string name="strFileName">文件名:</string>
+    <string name="strPathFileSaved">"文件保存在：/sdcard/CANWifi/      "</string>
+    <string name="strIndex">序号</string>
+    <string name="strID">ID(H)</string>
+    <string name="strData">数据(H)</string>
+    <string name="strFrmType">帧类型</string>
+    <string name="strTime">时间</string>
+    <string name="strFrmCount">计数</string>
+    <string name="strFrmInterval">帧间隔</string>
+    <string name="strRecv">接收</string>
+    <string name="strUnRoll">非滚屏</string>
+    <string name="strRoll">滚屏</string>
+    <string name="strSend">发送</string>
+    <string name="strSendStop">停止发送</string>
+    <string name="strSendType">发送方式</string>
+    <string name="strSendNormal">正常发送</string>
+    <string name="strTimeSend">发送次数</string>
+    <string name="strTimeInterval">每次发送间隔(ms)</string>
+    <string name="strInterval">每帧发送间隔(ms)</string>
+    <string name="strFrmFormat">帧格式</string>
+    <string name="strFrmST">标准帧</string>
+    <string name="strDataFrm">数据帧</string>
+    <string name="strSendSelf">自发自收</string>
+    <string name="strServer">服务器端</string>
+    <string name="strLocalPort">本机端口</string>
+    <string name="strIpAddr">目标地址</string>
+    <string name="strErrNoticePort">错误通知端口</string>
+    <string name="strConnect">连接</string>
+    <string name="strClient">客户端</string>
+    <string name="strMaxCount">最大显示帧数目</string>
+    <string name="strAddr">IP地址</string>
+    <string name="strSure">确定</string>
+    <string name="strCancel">取消</string>
+    <string name="strNoItem">未选择任何项目</string>
+    <string name="strSendSucceed">发送成功</string>
+    <string name="strUnConnect">未连接</string>
+    <string name="strErr01">以太网发送缓冲区将要溢出</string>
+    <string name="strErr02">以太网发送缓冲区已经溢出</string>
+    <string name="strErr03">以太网接收缓冲区将要溢出</string>
+    <string name="strErr04">以太网接收缓冲区已经溢出</string>
+    <string name="strErr05">CAN控制器发送错误告警</string>
+    <string name="strErr06">CAN控制器接收错误告警</string>
+    <string name="strErr07">CAN控制器发送错误被动</string>
+    <string name="strErr08">CAN控制器接收错误被动</string>
+    <string name="strErr09">CAN控制器发生接收溢出错误</string>
+    <string name="strErr0A">CAN控制器发生总线关闭</string>
+    <string name="strErr0B">CAN 控制器发生仲裁丢失</string>
+    <string name="strErr0C">其他错误</string>
+    <string name="strStandard">标准</string>
+    <string name="strExtend">扩展</string>
+    <string name="strRemoteFrm">远程帧</string>
+    <string name="strConnecting">连接中...</string>
+    <string name="strToUnConnect">断开连接</string>
+    <string name="strUnConnecting">断开中...</string>
+    <string name="strExitApp">再按一次退出应用</string>
+    <string name="strOpenFileSaved">打开保存的文件？</string>
+    <string name="strOpen">打开</string>
+    <string name="strConnectSucceed">连接成功</string>
+    <string name="strConnectFailed">连接失败</string>
+    <string name="strUnConnectSucceed">断开成功</string>
+    <string name="strUnConnectFailed">断开失败</string>
+    <string name="strExporting">导出中...</string>
+    <string name="strCreateFileFailed">创建文件出错</string>
+    <string name="strListEmpty">列表数据为空</string>
+    <string name="strLang">Chinese | English</string>
+    <string name="strDevName">设备名称</string>
+    <string name="strDoPWD">密码操作</string>
+    <string name="strPWDCurrent">当前密码</string>
+    <string name="strChangePWD">修改密码</string>
+    <string name="strIPInfo">IP地址信息</string>
+    <string name="strDevIP">设备IP</string>
+    <string name="strNetMask">子网掩码</string>
+    <string name="strGateWay">网关IP</string>
+    <string name="strDNS">DNS</string>
+    <string name="strMAC">MAC地址</string>
+    <string name="strIPMode">动态获取IP</string>
+    <string name="strWebPort">网页端口</string>
+    <string name="strCMDPort">命令端口</string>
+    <string name="strWifiInfo">WIFI信息</string>
+    <string name="strWIFIName">WIFI名</string>
+    <string name="strWIFIMode">WIFI模式</string>
+    <string name="strWIFIPWD">WIFI密码</string>
+    <string name="strWIFIChannel">WIFI频段</string>
+    <string name="strWPAMode">WIFI加密</string>
+    <string name="strCAN0Set">CAN0配置</string>
+    <string name="strCAN1Set">CAN1配置</string>
+    <string name="strTCPWorkMode">TCP工作方式</string>
+    <string name="strWorkPort">工作端口</string>
+    <string name="strNotifyPort">错误通知端口</string>
+    <string name="strBaud">波特率(kbps)</string>
+    <string name="strPack">分包帧数</string>
+    <string name="strPackets">分包时间间隔(ms)</string>
+    <string name="strCommPriority">通讯优先级</string>
+    <string name="strRealTimeFirst">实时性优先</string>
+    <string name="strIntegrityFirst">数据完整性优先</string>
+    <string name="strConn">tcp/udp连接数</string>
+    <string name="strDesport1">目标端口1</string>
+    <string name="strMsk1">子网掩码1</string>
+    <string name="strStartIP1">起始地址1</string>
+    <string name="strEndIP1">结束地址1</string>
+    <string name="strDesport2">目标端口2</string>
+    <string name="strMsk2">子网掩码2</string>
+    <string name="strStartIP2">起始地址2</string>
+    <string name="strEndIP2">结束地址2</string>
+    <string name="strDesport3">目标端口3</string>
+    <string name="strMsk3">子网掩码3</string>
+    <string name="strStartIP3">起始地址3</string>
+    <string name="strEndIP3">结束地址3</string>
+    <string name="strDesport4">目标端口4</string>
+    <string name="strMsk4">子网掩码4</string>
+    <string name="strStartIP4">起始地址4</string>
+    <string name="strEndIP4">结束地址4</string>
+    <string name="strDesport5">目标端口5</string>
+    <string name="strMsk5">子网掩码5</string>
+    <string name="strStartIP5">起始地址5</string>
+    <string name="strEndIP5">结束地址5</string>
+    <string name="strDesport6">目标端口6</string>
+    <string name="strMsk6">子网掩码6</string>
+    <string name="strStartIP6">起始地址6</string>
+    <string name="strEndIP6">结束地址6</string>
+    <string name="strFilterCount">滤波数</string>
+    <string name="strFrameType1">帧类型1</string>
+    <string name="strStartID1">起始ID1(HEX)</string>
+    <string name="strEndID1">结束ID1(HEX)</string>
+    <string name="strFrameType2">帧类型2</string>
+    <string name="strStartID2">起始ID2(HEX)</string>
+    <string name="strEndID2">结束ID2(HEX)</string>
+    <string name="strFrameType3">帧类型3</string>
+    <string name="strStartID3">起始ID3(HEX)</string>
+    <string name="strEndID3">结束ID3(HEX)</string>
+    <string name="strTimeOut">超时断开(10ms)</string>
+    <string name="strCommit">提交更改</string>
+    <string name="strConfirm">请在输入一次</string>
+    <string name="strInvalidCharacters">无效字符</string>
+    <string name="strValidRang">"有效长度为"</string>
+    <string name="strValidValueGreater">有效值不小于</string>
+    <string name="strErroPwd">输入密码有误，请重新输入</string>
+    <string name="strInvalidPwd">输入无效字符(请输入数字或大小写字母)</string>
+    <string name="strInvalidIP">无效IP</string>
+    <string name="strInvalidMask">无效MASK</string>
+    <string name="strDoAfterConnect">请在WIFI重连后再进行此操作</string>
+    <string name="strInputPWD">请输入密码</string>
+    <string name="strInputPWDNew">请输入要修改的密码</string>
+    <string name="strSetIP">请设置IP</string>
+    <string name="strSetMask">请设置子网掩码</string>
+    <string name="strSetDNS">请设置DNS</string>
+    <string name="strSetIPMode">请设置获取IP方式</string>
+    <string name="strDynamic">动态获取</string>
+    <string name="strStatic">静态获取</string>
+    <string name="strSetWifiName">请设置Wifi名</string>
+    <string name="strSetEncryptionMode">请设置加密方式</string>
+    <string name="strSetNoPWD">无密码</string>
+    <string name="strInputWifiPWD">请设置wifi密码</string>
+    <string name="strSetWifiChannel">请设置wifi频段</string>
+    <string name="strSetConn">请选择连接数</string>
+    <string name="strSetWorkPort">请设置工作端口</string>
+    <string name="strSetNotifyPort">请设置错误通知端口</string>
+    <string name="strSetBaud">请设置波特率(kbps)</string>
+    <string name="strSetPack">请设置分包数</string>
+    <string name="strSetPackets">请设置分包时隔(ms)</string>
+    <string name="strSetFilterCount">请设置滤波数</string>
+    <string name="strFrameSTD">标准帧</string>
+    <string name="strFrameEXT">扩展帧</string>
+    <string name="strSetStartID">请设置起始ID(HEX)</string>
+    <string name="strSetEndID">请设置结束ID(HEX)</string>
+    <string name="strSetTimeOut">请设置超时断开时间(10ms)</string>
+    <string name="strInputPWDErro">密码输入有误或未输入密码</string>
+    <string name="strCommitSuccess">配置信息下发成功，在重新连接后可以检查是否修改成功</string>
+    <string name="strCommitFail">配置信息下发失败</string>
+    <string name="strNoModify">没有修改信息</string>
+    <string name="strSetDesPort1">请设置目标端口1</string>
+    <string name="strSetMask1">请设置子网掩码1</string>
+    <string name="strSetStartIP1">请设置起始IP1</string>
+    <string name="strSetEndIP1">请设置结束IP1</string>
+
+    <string name="strSetDesPort2">请设置目标端口2</string>
+    <string name="strSetMask2">请设置子网掩码2</string>
+    <string name="strSetStartIP2">请设置起始IP2</string>
+    <string name="strSetEndIP2">请设置结束IP2</string>
+
+    <string name="strSetDesPort3">请设置目标端口3</string>
+    <string name="strSetMask3">请设置子网掩码3</string>
+    <string name="strSetStartIP3">请设置起始IP3</string>
+    <string name="strSetEndIP3">请设置结束IP3</string>
+
+    <string name="strSetDesPort4">请设置目标端口4</string>
+    <string name="strSetMask4">请设置子网掩码4</string>
+    <string name="strSetStartIP4">请设置起始IP4</string>
+    <string name="strSetEndIP4">请设置结束IP4</string>
+
+    <string name="strSetDesPort5">请设置目标端口5</string>
+    <string name="strSetMask5">请设置子网掩码5</string>
+    <string name="strSetStartIP5">请设置起始IP5</string>
+    <string name="strSetEndIP5">请设置结束IP5</string>
+
+    <string name="strSetDesPort6">请设置目标端口6</string>
+    <string name="strSetMask6">请设置子网掩码6</string>
+    <string name="strSetStartIP6">请设置起始IP6</string>
+    <string name="strSetEndIP6">请设置结束IP6</string>
+    <string name="strWifiConnected">WIFI已重连，检测配置是否成功</string>
+    <string name="strYes">是</string>
+    <string name="strNo">否</string>
+    <string name="strModifySucc">修改成功</string>
+    <string name="strModifyFail">修改失败</string>
+    <string name="strGetInfoFail">获取信息失败</string>
+    <string name="strEmptyItem">含有空数据项</string>
+    <string name="strEmptyMaxCount">最大帧数目不能为空或0</string>
+    <string name="strFileCover">覆盖</string>
+    <string name="strSameName">存在命名冲突</string>
+    <string name="strCreateDirFailed">创建目录失败</string>
+    <string name="strEmptyFileName">文件名为空</string>
+    <string name="strClearThisList">将清空该列表的内容</string>
+    <string name="strErrCode">状态码(H)</string>
+    <string name="strErrMean">含义</string>
+    <string name="strErrCount">错误计数</string>
+    <string name="strZnetcomDesc">• ZNETCOM: 配置CANWifi设备</string>
+    <string name="strCANTestDesc">• CANTest: CAN通讯测试</string>
+    <string name="strDownRefresh">下拉刷新</string>
+
+
+    <string name="dtc_180009">180009</string>
+    <string name="Meaning_180009">BCU一级故障</string>
+    <string name="faultType_180009">部件故障</string>
+    <string name="faultAttribute_180009">一般故障信息</string>
+    <string name="faultExplain_180009">电池系统状态异常</string>
+    <string name="possibleCause_180009">可能电池系统内部零件出现故障</string>
+    <string name="correctAction_180009">请参考《动力电池总成维修手册》</string>
+
+    <string name="dtc_180109">180109</string>
+    <string name="Meaning_180109">BCU二级故障</string>
+    <string name="faultType_180109">部件故障</string>
+    <string name="faultAttribute_180109">一般故障信息</string>
+    <string name="faultExplain_180109">电池系统状态异常</string>
+    <string name="possibleCause_180109">可能电池系统内部零件出现故障</string>
+    <string name="correctAction_180109">请参考《动力电池总成维修手册》</string>
+
+    <string name="dtc_180209">180209</string>
+    <string name="Meaning_180209">BCU三级故障</string>
+    <string name="faultType_180209">部件故障</string>
+    <string name="faultAttribute_180209">一般故障信息</string>
+    <string name="faultExplain_180209">电池系统状态异常</string>
+    <string name="possibleCause_180209">可能电池系统内部零件出现故障</string>
+    <string name="correctAction_180209">请参考《动力电池总成维修手册》</string>
+
+    <string name="dtc_180309">180309</string>
+    <string name="Meaning_180309">BCU四级故障</string>
+    <string name="faultType_180309">部件故障</string>
+    <string name="faultAttribute_180309">一般故障信息</string>
+    <string name="faultExplain_180309">电池系统状态异常</string>
+    <string name="possibleCause_180309">可能电池系统内部零件出现故障</string>
+    <string name="correctAction_180309">请参考《动力电池总成维修手册》</string>
+
+    <string name="dtc_180409">180409</string>
+    <string name="Meaning_180409">BCU五级故障</string>
+    <string name="faultType_180409">部件故障</string>
+    <string name="faultAttribute_180409">一般故障信息</string>
+    <string name="faultExplain_180409">电池系统状态异常</string>
+    <string name="possibleCause_180409">可能电池系统内部零件出现故障</string>
+    <string name="correctAction_180409">请参考《动力电池总成维修手册》</string>
+
+    <string name="dtc_1ed364">1ed364</string>
+    <string name="Meaning_1ed364">BCU_185帧CRC校验故障</string>
+    <string name="faultType_1ed364">信号校验故障</string>
+    <string name="faultAttribute_1ed364">校核故障</string>
+    <string name="faultExplain_1ed364">电池系统控制器与整车控制器之间的CAN通信异常</string>
+    <string name="possibleCause_1ed364">1、电池系统控制器或整车控制器的低压接插件松动、退针等问题；
+2、电池系统控制器的供电、接地回路异常；
+3、电池系统控制器自身故障</string>
+    <string name="correctAction_1ed364">1、排查电池系统控制器与整车控制器之间的低压线束是否连接正常；
+2、排查电池系统的供电、接地回路是否连接正常；
+3、更换电池系统控制器</string>
+
+    <string name="dtc_1ed482">1ed482</string>
+    <string name="Meaning_1ed482">BCU_185帧Counter校验故障</string>
+    <string name="faultType_1ed482">总线信号故障</string>
+    <string name="faultAttribute_1ed482">总线信号/报文故障</string>
+    <string name="faultExplain_1ed482">电池系统控制器与整车控制器之间的CAN通信异常</string>
+    <string name="possibleCause_1ed482">1、电池系统控制器或整车控制器的低压接插件松动、退针等问题；
+2、电池系统控制器的供电、接地回路异常；
+3、电池系统控制器自身故障</string>
+    <string name="correctAction_1ed482">1、排查电池系统控制器与整车控制器之间的低压线束是否连接正常；
+2、排查电池系统的供电、接地回路是否连接正常；
+3、更换电池系统控制器</string>
+
+    <string name="dtc_d30d87">d30d87</string>
+    <string name="Meaning_d30d87">IP_3F0帧CAN丢失故障</string>
+    <string name="faultType_d30d87">总线信号故障</string>
+    <string name="faultAttribute_d30d87">总线信号/报文故障</string>
+    <string name="faultExplain_d30d87">整车控制器无法接收到仪表控制器的CAN通信</string>
+    <string name="possibleCause_d30d87">1、仪表控制器或整车控制器的低压接插件松动、退针等问题；
+2、仪表控制器的供电、接地回路异常；
+3、仪表控制器自身故障</string>
+    <string name="correctAction_d30d87">1、排查仪表控制器与整车控制器之间的低压线束是否连接正常；
+2、排查仪表的供电、接地回路是否连接正常；
+3、更换仪表控制器</string>
+
+    <string name="dtc_d30e87">d30e87</string>
+    <string name="Meaning_d30e87">IP_280帧CAN丢失故障</string>
+    <string name="faultType_d30e87">总线信号故障</string>
+    <string name="faultAttribute_d30e87">总线信号/报文故障</string>
+    <string name="faultExplain_d30e87">整车控制器无法接收到仪表控制器的CAN通信</string>
+    <string name="possibleCause_d30e87">1、仪表控制器或整车控制器的低压接插件松动、退针等问题；
+2、仪表控制器的供电、接地回路异常；
+3、仪表控制器自身故障</string>
+    <string name="correctAction_d30e87">1、排查仪表控制器与整车控制器之间的低压线束是否连接正常；
+2、排查仪表的供电、接地回路是否连接正常；
+3、更换仪表控制器</string>
+
+    <string name="dtc_d30f87">d30f87</string>
+    <string name="Meaning_d30f87">IP_516帧CAN丢失故障</string>
+    <string name="faultType_d30f87">总线信号故障</string>
+    <string name="faultAttribute_d30f87">总线信号/报文故障</string>
+    <string name="faultExplain_d30f87">整车控制器无法接收到仪表控制器的CAN通信</string>
+    <string name="possibleCause_d30f87">1、仪表控制器或整车控制器的低压接插件松动、退针等问题；
+2、仪表控制器的供电、接地回路异常；
+3、仪表控制器自身故障</string>
+    <string name="correctAction_d30f87">1、排查仪表控制器与整车控制器之间的低压线束是否连接正常；
+2、排查仪表的供电、接地回路是否连接正常；
+3、更换仪表控制器</string>
+
+    <string name="dtc_d31087">d31087</string>
+    <string name="Meaning_d31087">PEPS_266帧CAN丢失故障</string>
+    <string name="faultType_d31087">总线信号故障</string>
+    <string name="faultAttribute_d31087">总线信号/报文故障</string>
+    <string name="faultExplain_d31087">整车控制器无法接收到无钥匙启动控制器的CAN通信</string>
+    <string name="possibleCause_d31087">1、无钥匙启动系统控制器或整车控制器的低压接插件松动、退针等问题；
+2、无钥匙启动系统控制器的供电、接地回路异常；
+3、无钥匙启动系统控制器自身故障</string>
+    <string name="correctAction_d31087">1、排查无钥匙启动系统控制器与整车控制器之间的低压线束是否连接正常；
+2、排查无钥匙启动系统的供电、接地回路是否连接正常；
+3、更换无钥匙启动系统控制器</string>
+
+    <string name="dtc_d31187">d31187</string>
+    <string name="Meaning_d31187">GW_270帧CAN丢失故障</string>
+    <string name="faultType_d31187">总线信号故障</string>
+    <string name="faultAttribute_d31187">总线信号/报文故障</string>
+    <string name="faultExplain_d31187">整车控制器无法接收到网关控制器的CAN通信</string>
+    <string name="possibleCause_d31187">1、网关控制器或整车控制器的低压接插件松动、退针等问题；
+2、网关控制器的供电、接地回路异常；
+3、网关控制器自身故障</string>
+    <string name="correctAction_d31187"> 1、排查网关控制器与整车控制器之间的低压线束是否连接正常；
+2、排查网关的供电、接地回路是否连接正常；
+3、更换网关控制器</string>
+
+    <string name="dtc_d31287">d31287</string>
+    <string name="Meaning_d31287">GW_380帧CAN丢失故障</string>
+    <string name="faultType_d31287">总线信号故障</string>
+    <string name="faultAttribute_d31287">总线信号/报文故障</string>
+    <string name="faultExplain_d31287">整车控制器无法接收到网关控制器的CAN通信</string>
+    <string name="possibleCause_d31287">1、网关控制器或整车控制器的低压接插件松动、退针等问题；
+2、网关控制器的供电、接地回路异常；
+3、网关控制器自身故障</string>
+    <string name="correctAction_d31287"> 1、排查网关控制器与整车控制器之间的低压线束是否连接正常；
+2、排查网关的供电、接地回路是否连接正常；
+3、更换网关控制器</string>
+
+    <string name="dtc_d31387">d31387</string>
+    <string name="Meaning_d31387">TMS_324帧CAN丢失故障</string>
+    <string name="faultType_d31387">总线信号故障</string>
+    <string name="faultAttribute_d31387">总线信号/报文故障</string>
+    <string name="faultExplain_d31387">整车控制器无法接收到热管理系统控制器的CAN通信</string>
+    <string name="possibleCause_d31387">1、热管理系统控制器或整车控制器的低压接插件松动、退针等问题；
+2、热管理系统控制器的供电、接地回路异常；
+3、热管理系统控制器自身故障</string>
+    <string name="correctAction_d31387"> 1、排查热管理系统控制器与整车控制器之间的低压线束是否连接正常；
+2、排查热管理系统的供电、接地回路是否连接正常；
+3、更换热管理系统控制器</string>
+
+    <string name="dtc_d31487">d31487</string>
+    <string name="Meaning_d31487">TMS_32C帧CAN丢失故障</string>
+    <string name="faultType_d31487">总线信号故障</string>
+    <string name="faultAttribute_d31487">总线信号/报文故障</string>
+    <string name="faultExplain_d31487">整车控制器无法接收到热管理系统控制器的CAN通信</string>
+    <string name="possibleCause_d31487">1、热管理系统控制器或整车控制器的低压接插件松动、退针等问题；
+2、热管理系统控制器的供电、接地回路异常；
+3、热管理系统控制器自身故障</string>
+    <string name="correctAction_d31487"> 1、排查热管理系统控制器与整车控制器之间的低压线束是否连接正常；
+2、排查热管理系统的供电、接地回路是否连接正常；
+3、更换热管理系统控制器</string>
+
+    <string name="dtc_d31587">d31587</string>
+    <string name="Meaning_d31587">SRS_050帧CAN丢失故障</string>
+    <string name="faultType_d31587">总线信号故障</string>
+    <string name="faultAttribute_d31587">总线信号/报文故障</string>
+    <string name="faultExplain_d31587">整车控制器无法接收到安全气囊控制器的CAN通信</string>
+    <string name="possibleCause_d31587">1、安全气囊控制器或整车控制器的低压接插件松动、退针等问题；
+2、安全气囊控制器的供电、接地回路异常；
+3、安全气囊控制器自身故障</string>
+    <string name="correctAction_d31587">1、排查安全气囊控制器与整车控制器之间的低压线束是否连接正常；
+2、排查安全气囊的供电、接地回路是否连接正常；
+3、更换安全气囊控制器</string>
+
+    <string name="dtc_d31687">d31687</string>
+    <string name="Meaning_d31687">ESL_24A帧CAN丢失故障</string>
+    <string name="faultType_d31687">总线信号故障</string>
+    <string name="faultAttribute_d31687">总线信号/报文故障</string>
+    <string name="faultExplain_d31687">整车控制器无法接收到电子档位器的CAN通信</string>
+    <string name="possibleCause_d31687">1、电子档位器或整车控制器的低压接插件松动、退针等问题；
+2、电子档位器的供电、接地回路异常；
+3、电子档位器自身故障</string>
+    <string name="correctAction_d31687">1、排查电子档位器与整车控制器之间的低压线束是否连接正常；
+2、排查电子档位器的供电、接地回路是否连接正常；
+3、更换电子档位器</string>
+
+
+
+</resources>

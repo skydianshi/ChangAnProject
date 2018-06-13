@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dtc_desc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/md_blue_400"
+    tools:context="com.changan.changanproject.activity.DtcDescActivity">
+
+    <com.changan.changanproject.view.MyToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:fitsSystemWindows="true"
+        android:background="@color/md_blue_400"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/dtcView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/menu_select_color"
+                android:text="故障码：P1800"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/dtcMean"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:text="故障解释： 擎变速箱电脑控制系统故障"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="14sp"
+                    android:gravity="left"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/md_blue_300"
+                    android:text="故障类型："/>
+
+
+                <TextView
+                    android:id="@+id/faultsType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/md_red_400"
+                    android:text="邮件故障"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="14sp"
+                    android:gravity="left"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/md_blue_300"
+                    android:text="故障属性："/>
+
+
+                <TextView
+                    android:id="@+id/faultsAttribute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/md_red_400"
+                    android:text="一般故障"/>
+            </LinearLayout>
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@mipmap/drawcar"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/md_blue_300"
+                android:text="故障说明："/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/faultExplain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/md_red_400"
+                android:text="电池系统状态异常"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/md_blue_300"
+                android:text="可能故障原因："/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/faultCause"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/md_red_400"
+                android:text="可能电池系统内部零件出现故障"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/md_blue_300"
+                android:text="维修建议："/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/correctiveAction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/md_red_400"
+                android:text="请参考《动力电池总成维修手册》"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_marginBottom="@dimen/list_bottom_margin"
+        android:layout_marginLeft="@dimen/list_left_right_margin"
+        android:layout_marginRight="@dimen/list_left_right_margin"
+        android:layout_marginTop="@dimen/list_top_margin"
+        android:layout_weight="1"
+        android:background="@color/list_line" >
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <include layout="@layout/frm_send_header" />
+
+                <View style="@style/horizontal_line_C0C9D9" >
+                </View>
+
+                <ListView
+                    android:id="@+id/ListFrmSent"
+                    android:divider="@color/cut_line"
+                    android:dividerHeight="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1" >
+                </ListView>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/send_bg"
+        android:orientation="vertical" >
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/select_item_height"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/strTimeSend"
+                android:textColor="@color/button_text"
+                android:textSize="@dimen/default_font_size" />
+
+            <EditText
+                android:id="@+id/editTextSendTime"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="7"
+                android:text="1"
+                android:textColor="@color/button_text" >
+            </EditText>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/gainsboro" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/select_item_height"
+            android:background="@color/white" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/strTimeInterval"
+                android:textColor="@color/button_text"
+                android:textSize="@dimen/default_font_size" />
+
+            <EditText
+                android:id="@+id/editTextSendInterval"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="6"
+                android:text="1"
+                android:textColor="@color/button_text" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/gainsboro" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/select_item_height"
+            android:background="@color/white" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/strInterval"
+                android:textColor="@color/button_text"
+                android:textSize="@dimen/default_font_size" />
+
+            <EditText
+                android:id="@+id/editTextFrmInterval"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="6"
+                android:text="1"
+                android:textColor="@color/button_text" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TextViewSend"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_send_height"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="@dimen/title_left_margin"
+        android:layout_marginRight="@dimen/title_right_margin"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_send_backgroup_exchange"
+        android:gravity="center"
+        android:text="@string/strSend"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_font_size" />
+
+</LinearLayout>
